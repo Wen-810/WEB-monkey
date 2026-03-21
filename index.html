@@ -9,6 +9,14 @@
 
 <body>
 
+<!-- ✅ Loading Overlay -->
+<div id="loadingOverlay">
+    <div class="loaderBox">
+        <div class="spinner"></div>
+        <p>系統載入中，請稍候...</p>
+    </div>
+</div>
+
 <h1>🌿 訂票系統正在努力為你服務中 🐵</h1>
 
 <div id="main">
@@ -29,6 +37,11 @@
         <div id="message">
             目前有許多使用者正在同時訂票 🐾<br>
             小猴子正在努力幫你處理訂單，請稍候一下～
+        </div>
+
+        <!-- ✅ 排隊人數 -->
+        <div id="queue">
+            目前排隊人數：<span id="queueCount">50</span> 人
         </div>
 
         <div id="progressBar">
