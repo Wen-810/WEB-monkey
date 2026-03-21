@@ -2,23 +2,24 @@
 <html lang="zh-TW">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>動物園訂票系統</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h1>🌿 訂票系統忙碌中 🐵</h1>
+<h1>🌿 訂票系統正在努力為你服務中 🐵</h1>
 
 <div id="main">
 
     <!-- 左：注意事項 -->
     <div id="left">
-        <h3 id="noticeTitle">⚠ 注意事項</h3>
+        <h3 id="noticeTitle">⚠ 小提醒</h3>
         <div id="notice">
-            • 訂票資料已成功送出，請勿重複操作<br>
-            • 尚未完成付款前不會扣款<br>
-            • 若等待過久可重新整理頁面
+            • 已成功送出訂票資料，請安心等待處理<br>
+            • 在付款完成前不會進行扣款，請放心<br>
+            • 若等待時間稍長，可重新整理頁面再試一次
         </div>
     </div>
 
@@ -26,8 +27,8 @@
     <div id="right">
 
         <div id="message">
-            動物園訂票系統目前人潮眾多<br>
-            小猴子正在幫你處理訂單，請稍候～
+            目前有許多使用者正在同時訂票 🐾<br>
+            小猴子正在努力幫你處理訂單，請稍候一下～
         </div>
 
         <div id="progressBar">
@@ -38,10 +39,13 @@
         </div>
 
         <div id="status">
-            進度：<span id="percent">0%</span>
+            <span>進度：</span>
+            <span id="percent">0%</span>
         </div>
 
-        <button type="button" onclick="location.reload()">🔄 重新整理</button>
+        <button type="button" onclick="location.reload()" aria-label="重新整理頁面">
+            🔄 重新整理
+        </button>
 
     </div>
 
