@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>訂票等待系統</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🎟 市川市動物園訂票系統</h1>
+
+<div id="container">
+
+    <div id="message">
+        目前訂票人數較多，請耐心等候 🙏<br>
+        系統正在為您處理訂單...
+    </div>
+
+    <button onclick="location.reload()">🔄 重新整理</button>
+    <div id="status">
+        進度：<span id="percent">0%</span>
+    </div>
+    <div id="progressBar">
+        <div id="progress"></div>
+        <div id="monkey">🐵</div>
+        <div id="endSweetPotato">🍠</div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
