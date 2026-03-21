@@ -24,19 +24,22 @@ h1 {
 
 #message {
     font-size: 18px;
-    margin-top: -100px;  /* ? 往上移 */
-    margin-bottom: 50px;
+    margin-top: -150px;  
+    margin-bottom: 30px;
     height: 60px;
+}
+#status {
+    font-size: 18px;
+    margin: 30px;
+    
 }
 
 button {
-    padding: 10px 50px;
-    margin: 10px;
-    margin-top: -3000px;
+    padding: 10px 20px;
+    margin: 15px;
+    margin-top: -50px;
     cursor: pointer;
 }
-
-
 #progressBar {
     position: relative;
     width: 100%;
@@ -46,8 +49,6 @@ button {
     margin: 30px 0;
     overflow: hidden;
 }
-
-
 #progress {
     position: absolute;
     height: 100%;
@@ -55,7 +56,6 @@ button {
     background: linear-gradient(to right, #4caf50, #8bc34a);
 }
 
-/* 小猴子 */
 #monkey {
     position: absolute;
     top: 50%;
@@ -65,12 +65,11 @@ button {
     transition: left 0.3s linear;
 }
 
-
 #endApple {
     position: absolute;
     right: 40px;
     top: 10px;
-    font-size: 10px;
+    font-size: 20px;
 }
 
 #endSweetPotato {
@@ -78,8 +77,4 @@ button {
     right: 10px;
     bottom: 5px;
     font-size: 20px;
-}
-
-#status {
-    font-size: 18px;
 }
