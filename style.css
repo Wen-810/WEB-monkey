@@ -12,13 +12,13 @@ body {
     display: flex;
     flex-direction: column;   /* ? 改成上下排列 */
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     
 }
 
 /* ===== 標題（置中在上） ===== */
 h1 {
-    margin-top: 150px;
+     margin-top: 150px;
     text-align: center;
 }
 
