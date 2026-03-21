@@ -1,14 +1,10 @@
 body {
     margin: 0;
     font-family: Arial;
-
-    /* 背景圖片 */
     background-image: url("back.jpg");
-
-    background-size: cover;      /* 填滿畫面 */
-    background-position: center;  /* 置中 */
-    background-repeat: no-repeat; /* 不重複 */
-
+    background-size: cover;      
+    background-position: center;  
+    background-repeat: no-repeat; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,11 +13,12 @@ body {
     text-align: center;
 }
 h1 {
-    margin-top: 155px;
+    margin-top: 160px;
 }
 
 #container {
     width: 500px;
+    margin-top: -100px;
     margin: auto;
 }
 
