@@ -1,4 +1,4 @@
-/* ===== 整體 ===== */
+
 body {
     margin: 0;
     font-family: Arial;
@@ -14,13 +14,13 @@ body {
     min-height: 100vh;
 }
 
-/* ===== 標題 ===== */
+
 h1 {
     margin-top: 130px;
     text-align: center;
 }
 
-/* ===== 主區塊 ===== */
+
 #main {
     display: flex;
     justify-content: center;
@@ -28,7 +28,7 @@ h1 {
     margin-top: 5px;
 }
 
-/* ===== 左（注意事項） ===== */
+
 #left {
     width: 300px;
     background: rgba(204, 222, 173, 0.893);
@@ -37,7 +37,7 @@ h1 {
     text-align: left;
 }
 
-/* ===== 右（等待系統） ===== */
+
 #right {
     width: 400px;
     background: transparent;
@@ -46,20 +46,19 @@ h1 {
     text-align: center;
 }
 
-/* ===== 訊息 ===== */
+
 #message {
     font-size: 18px;
     margin: 14px 0;
 }
 
-/* ===== 排隊人數 ===== */
 #queue {
     font-size: 16px;
     margin: 10px 0;
     color: #333;
 }
 
-/* ===== 進度條 ===== */
+
 #progressBar {
     position: relative;
     width: 100%;
@@ -77,7 +76,7 @@ h1 {
     background: linear-gradient(to right, #4caf50, #8bc34a);
 }
 
-/* ===== 小猴子 ===== */
+
 #monkey {
     position: absolute;
     top: 50%;
@@ -86,7 +85,7 @@ h1 {
     left: 0%;
 }
 
-/* ===== 終點 ===== */
+
 #endApple {
     position: absolute;
     right: 40px;
@@ -101,29 +100,26 @@ h1 {
     font-size: 20px;
 }
 
-/* ===== 狀態 ===== */
+
 #status {
     font-size: 18px;
     margin: 10px 0;
 }
 
-/* ===== 按鈕 ===== */
+
 button {
     padding: 10px 20px;
     margin: 10px 0;
     cursor: pointer;
 }
 
-/* ===== 注意事項 ===== */
+
 #notice {
     font-size: 16px;
     line-height: 2.0;
     padding-left: 25px;
 }
 
-/* ===================================================== */
-/* ? Loading Overlay（新增） */
-/* ===================================================== */
 
 #loadingOverlay {
     position: fixed;
