@@ -2,35 +2,49 @@
 <html lang="zh-TW">
 <head>
 <meta charset="UTF-8">
-<title></title>
+<title>動物園訂票系統</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h1>市立動物院訂票系統</h1>
+<h1>🌿 訂票系統忙碌中 🐵</h1>
 
-<div id="container">
+<div id="main">
 
-    <div id="message">
-        目前訂票人數較多，請耐心等候<br>
-        系統正在為您處理訂單...
-    </div>
-     <div id="status">
-        進度：<span id="percent">0%</span>
-    </div>
-
-    <button onclick="location.reload()">重新整理</button>
-
-   
-    <div id="progressBar">
-        <div id="progress"></div>
-        <div id="monkey">🐒</div>
-        <div id="endApple">🍎</div>
-        <div id="endSweetPotato">🥔</div>
+    <!-- 左：注意事項 -->
+    <div id="left">
+        <h3 id="noticeTitle">⚠ 注意事項</h3>
+        <div id="notice">
+            • 訂票資料已成功送出，請勿重複操作<br>
+            • 系統繁忙時請耐心等候<br>
+            • 尚未完成付款前不會扣款<br>
+            • 若等待過久可重新整理頁面
+        </div>
     </div>
 
-   
+    <!-- 右：等待區 -->
+    <div id="right">
+
+        <div id="message">
+            動物園訂票系統目前人潮眾多<br>
+            小猴子正在幫你處理訂單，請稍候～
+        </div>
+
+        <div id="progressBar">
+            <div id="progress"></div>
+            <div id="monkey">🐒</div>
+            <div id="endApple">🍎</div>
+            <div id="endSweetPotato">🍠</div>
+        </div>
+
+        <div id="status">
+            進度：<span id="percent">0%</span>
+        </div>
+
+        <button onclick="location.reload()">🔄 重新整理</button>
+
+    </div>
 
 </div>
 
