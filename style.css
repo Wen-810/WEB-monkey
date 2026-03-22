@@ -147,7 +147,7 @@ button {
     z-index: 9999;
 }
 
-/* 按鈕 */
+
 #chatToggle {
     background: #4caf50;
     color: white;
@@ -161,7 +161,7 @@ button {
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
-/* 客服盒 */
+
 #chatBox {
     margin-top: 10px;
     width: 220px;
@@ -172,10 +172,10 @@ button {
 
     box-shadow: 0 6px 15px rgba(0,0,0,0.3);
 
-    display: none; /* 預設關閉 */
+    display: none; 
 }
 
-/* 標題 */
+
 #chatHeader {
     background: #4caf50;
     color: white;
@@ -183,7 +183,7 @@ button {
     font-weight: bold;
 }
 
-/* 內容 */
+
 #chatContent {
     padding: 10px;
     font-size: 14px;
