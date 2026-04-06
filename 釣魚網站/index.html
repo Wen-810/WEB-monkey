@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="topbar">
+  <div class="logo">Shopee  蝦皮購物</div>
+</div>
+
+<div class="container">
+
+  <!-- 左側視覺 -->
+  <div class="left">
+    <div class="promo">
+      <h1>輕鬆購物</h1>
+      <p>快速、安全、便利</p>
+    </div>
+  </div>
+
+  <!-- 右側登入 -->
+  <div class="right">
+    <div class="login-box">
+
+      <h2>會員登入</h2>
+
+      <div id="error" class="error"></div>
+
+      <input id="account" type="text" placeholder="Email 或手機號碼">
+
+      <div class="password-wrapper">
+        <input id="password" type="password" placeholder="密碼">
+        <span id="toggle">顯示</span>
+      </div>
+
+      <button id="loginBtn">登入</button>
+
+      <!-- 分隔線 -->
+      <div class="divider">
+        <span>或</span>
+      </div>
+
+      <!-- 第三方登入 -->
+      <div class="social-login">
+        <button class="google-btn">Google</button>
+        <button class="fb-btn">Facebook</button>
+      </div>
+
+      <!-- 下方提示區：保留忘記密碼 & 註冊 -->
+      <div class="extra">
+        <span class="extra-forgot">忘記密碼</span>
+        <span class="extra-register">註冊</span>
+      </div>
+
+      <div id="loading" class="loading hidden">登入中...</div>
+
+    </div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
