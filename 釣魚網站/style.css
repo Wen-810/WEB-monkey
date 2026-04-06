@@ -9,7 +9,6 @@ body{
   background:#ffffff;
 }
 
-/* 上方列 */
 .topbar{
   background:#ffffff;
   padding:25px 40px;
@@ -26,7 +25,6 @@ body{
   padding-bottom: 40px;
 }
 
-/* 左側視覺區 */
 .left{
   flex:1;
   display:flex;
@@ -43,7 +41,6 @@ body{
   margin-top:10px;
 }
 
-/* 右側登入框 */
 .right{
   flex:1;
   display:flex;
@@ -51,7 +48,7 @@ body{
   align-items:flex-start;
 }
 
-/* 登入框 */
+
 .login-box{
   width:350px;
   background:white;
@@ -66,7 +63,7 @@ body{
   margin-bottom:20px;
 }
 
-/* input */
+
 input{
   width:100%;
   padding:12px;
@@ -80,7 +77,6 @@ input:focus{
   outline:none;
 }
 
-/* 密碼 */
 .password-wrapper{
   position:relative;
 }
@@ -94,7 +90,6 @@ input:focus{
   color:#888;
 }
 
-/* 按鈕 */
 button{
   width:100%;
   padding:12px;
@@ -109,7 +104,7 @@ button:hover{
   background:#d94325;
 }
 
-/* 額外下方提示區 */
+
 .extra{
   display:flex;
   justify-content:space-between;
@@ -127,14 +122,14 @@ button:hover{
   text-decoration:underline;
 }
 
-/* 錯誤 */
+
 .error{
   color:red;
   font-size:13px;
   margin-bottom:10px;
 }
 
-/* loading */
+
 .loading{
   margin-top:10px;
   font-size:14px;
@@ -145,7 +140,7 @@ button:hover{
   display:none;
 }
 
-/* 分隔線 */
+
 .divider{
   display:flex;
   align-items:center;
@@ -166,12 +161,10 @@ button:hover{
   margin:0 10px;
 }
 
-/* ===== 社群登入 ===== */
 .social-login{
   display:flex;
   gap:10px;
 }
-
 .google-btn{
   flex:1;
   padding:10px;
